@@ -11,7 +11,8 @@ const Teclas =({onButtonClick}) =>{
     return(
         <div className="button-panel">
            {buttons.map((button)=>(
-            <Button key={button} name={button} onClick={onButtonClick}/> 
+               <Button key={button} name={button} onClick={onButtonClick}/>
+                
            ))}
         </div>
     );
